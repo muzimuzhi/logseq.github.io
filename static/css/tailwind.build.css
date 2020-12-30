@@ -126,6 +126,16 @@
     max-width: 100%;
   }
 
+/* FIXME: img macros */
+
+.block-content img.left {
+      float: left;
+    }
+
+.block-content img.right {
+      float: right;
+    }
+
 .block-body blockquote:first-child,
   .block-body pre:first-child {
     margin-top: 8px;
