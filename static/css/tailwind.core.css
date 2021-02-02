@@ -1931,10 +1931,6 @@ video {
   .md\:hidden {
     display: none;
   }
-
-  .md\:ml-0 {
-    margin-left: 0;
-  }
 }
 
 @media (min-width: 1024px) {

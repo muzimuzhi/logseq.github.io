@@ -983,9 +983,10 @@ html[data-theme=light] .cp__right-sidebar-settings a {
       --ls-page-blockquote-bg-color: var(--ls-quaternary-background-color);
     }
 
-#search p {
-  margin: 0;
-}
+#search > .inner {
+    width: 100%;
+    max-width: 280px;
+  }
 
 #search-wrapper svg {
   color: var(--ls-search-icon-color, #9fa6b2);
